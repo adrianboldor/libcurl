@@ -65,6 +65,7 @@ LIBS="-ldl"
  --enable-ldap \
  --enable-ldaps \
  --enable-unix-sockets \
+ --enable-ares=/usr/local/src/c-ares-1.12.0 \
 
 cd %{curlroot} && (if [ -f configure.in.rpm ]; then mv -f configure.in.rpm configure.in; fi)
 make
