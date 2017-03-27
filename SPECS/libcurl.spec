@@ -31,6 +31,7 @@ BuildRequires: valgrind
 BuildRequires: libidn libidn-devel
 BuildRequires: libssh2 libssh2-devel
 BuildRequires: openldap openldap-devel
+BuildRequires: c-ares c-ares-devel
 
 %description
 curl is a client to get documents/files from servers, using any of the
